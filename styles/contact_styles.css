@@ -554,8 +554,9 @@ section
 {
 	display: block;
 	color: #1e1e27;
-	font-size: 13px;
+	font-size: 15px;
 	font-weight: 500;
+	font-weight: bold;
 	text-transform: uppercase;
 	padding: 20px;
 	-webkit-transition: color 0.3s ease;
@@ -591,6 +592,7 @@ section
 	width: 40px;
 	height: 40px;
 	color: #1e1e27;
+	font-size: 15px;
 	-webkit-transition: color 0.3s ease;
 	-moz-transition: color 0.3s ease;
 	-ms-transition: color 0.3s ease;
@@ -622,7 +624,7 @@ section
 	width: 20px;
 	height: 20px;
 	border-radius: 50%;
-	background: #fe4c50;
+	background: #88976c;
 	font-size: 12px;
 	color: #FFFFFF;
 }
@@ -807,14 +809,14 @@ section
 }
 .logo_container a
 {
-	font-size: 24px;
-	color: #1e1e27;
+	font-size: 30px;
+	color: #CFE1B9;
 	font-weight: 700;
 	text-transform: uppercase;
 }
 .logo_container a span
 {
-	color: #fe4c50;
+	color: #728156;
 }
 .red_button
 {
@@ -828,7 +830,7 @@ section
 	align-items: center;
 	width: auto;
 	height: 40px;
-	background: #fe4c50;
+	background: #88976c;
 	border-radius: 3px;
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
@@ -838,7 +840,7 @@ section
 }
 .red_button:hover
 {
-	background: #FE7C7F !important;
+	background: #8c9777 !important;
 }
 .red_button a
 {
@@ -878,12 +880,12 @@ section
 	transform: translateX(-50%);
 	width: 60px;
 	height: 5px;
-	background: #fe4c50;
+	background: #88976c;
 	content: '';
 }
 .product_details_title p
 {
-	color: #;
+	color: #88976c;
 }
 
 /*********************************
@@ -1063,7 +1065,7 @@ section
 }
 .message_submit_btn:hover
 {
-	background: #2b2b34 !important;
+	background: #838d71 !important;
 }
 :focus
 {
@@ -1150,6 +1152,14 @@ textarea:hover
 	cursor: pointer;
 }
 
+.message_submit_btn {
+	width: 100%;
+	background-color: #88976c;
+}
+.message_submit_btn:hover {
+	background-color: #8e9384;
+}
+
 /*********************************
 9. Newsletter
 *********************************/
@@ -1223,7 +1233,7 @@ textarea:hover
 	width: 160px;
 	height: 46px;
 	border: none;
-	background: #fe4c50;
+	background: #88976c;
 	color: #FFFFFF;
 	font-size: 14px;
 	font-weight: 500;
@@ -1232,7 +1242,7 @@ textarea:hover
 }
 .newsletter_submit_btn:hover
 {
-	background: #FE7C7F;
+	background: #848e72;
 }
 
 /*********************************
@@ -1269,7 +1279,7 @@ textarea:hover
 }
 .footer_nav li a:hover, .cr a, .cr i
 {
-	color: #fe4c50;
+	color: #88976c;
 }
 .footer_social
 {
@@ -1300,5 +1310,5 @@ textarea:hover
 }
 .footer_social ul li a:hover
 {
-	color: #fe4c50;
+	color: #88976c;
 }
