@@ -451,9 +451,10 @@ section
 
 .account
 {
+	width: 130px;
 	display: inline-block;
 	position: relative;
-	min-width: 50px;
+	/* min-width: 50px; */
 	padding-left: 20px;
 	text-align: center;
 	vertical-align: middle;

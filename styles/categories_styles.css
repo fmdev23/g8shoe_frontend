@@ -450,9 +450,10 @@ section
 
 .account
 {
+	width: 130px;
 	display: inline-block;
 	position: relative;
-	min-width: 50px;
+	/* min-width: 50px; */
 	padding-left: 20px;
 	text-align: center;
 	vertical-align: middle;
@@ -809,7 +810,7 @@ section
 .logo_container a
 {
 	font-size: 30px;
-	color: #1e1e27;
+	color: #cfe1b9;
 	font-weight: 700;
 	text-transform: uppercase;
 }
